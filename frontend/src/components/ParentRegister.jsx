@@ -19,7 +19,7 @@ const ParentRegister = () => {
     };
     setError(true);
     if (userName && userEmail && userPassword) {
-      let result = await fetch(`http://localhost:5000/parent_register`, {
+      let result = await fetch(`https://school-login-portal-backened-0zbt.onrender.com/parent_register`, {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
