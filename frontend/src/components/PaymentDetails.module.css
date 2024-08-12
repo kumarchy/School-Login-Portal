@@ -1,0 +1,86 @@
+.outer_container {
+  margin-top: 50px;
+}
+.payment_details_section {
+  width: 70%;
+  height: 550px;
+  background-color: rgb(196, 196, 196);
+  border-radius: 30px;
+  position: absolute;
+  margin-left: 6%;
+}
+
+.select_container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.select_container select {
+  margin-top: 40px;
+  width: 200px;
+}
+
+.enter_btn {
+  background-color: green;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px 35px;
+  border-radius: 30px;
+  margin-left: 70px;
+  font-size: 20px;
+  margin-top: 25px;
+}
+.enter {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+}
+.payment_status {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 55px;
+}
+.payment_status,
+.heading {
+  margin-top: 30px;
+}
+.payment_status ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.payment_status ul li {
+  list-style: none;
+  border: 1px solid black;
+  padding: 30px 30px;
+  font-size: 20px;
+  background-color: #ffffff;
+  flex: 1;
+  text-align: center;
+}
+.payment_status ul.heading li {
+  font-weight: 500;
+  background-color: #ffffff;
+}
+.pending_status_link a {
+  font-size: 20px;
+  margin-left: 70px;
+  color: rgb(165, 11, 165);
+  font-weight: 500;
+}
+.inform {
+  text-align: center;
+  color: red;
+}
+.back {
+  margin: 40px;
+  font-size: 18px;
+}
+.back a {
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,79 @@
+.school {
+  width: 100%;
+  margin-top: 80px;
+  height: calc(100vh - 80px);
+  background-image: url("https://balmikischool.edu.np/storage/banner/69_Hero_Image%20of%20Balmiki%20International%20(1).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.school::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+  pointer-events: none;
+}
+.container {
+  position: relative;
+  color: #ffffff;
+  z-index: 1;
+  text-align: left;
+  margin-left: 30px;
+}
+.schoolName {
+  margin-top: 10px;
+  font-weight: 800;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 45px;
+  background-color: blue;
+  display: inline-block;
+  padding: 10px 30px;
+}
+.plus2 {
+  margin-left: 100px;
+}
+.heading {
+  font-size: 50px;
+}
+.qualityMessage {
+  margin-top: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.coreValues {
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #f5931e;
+  display: inline-block;
+  padding: 10px 140px;
+  margin-top: 20px;
+}
+.values {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  font-size: 20px;
+}
+.values p {
+  background-color: rgb(123, 176, 223);
+  padding: 5px 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+}
+.contact {
+  margin-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+}
+.location {
+  color: brown;
+  font-size: 25px;
+}
+.gmail {
+  color: brown;
+  font-size: 20px;
+}

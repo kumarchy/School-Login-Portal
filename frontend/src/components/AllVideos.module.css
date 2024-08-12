@@ -1,0 +1,23 @@
+.outer_container {
+  margin-top: 80px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+iframe {
+  height: 18rem;
+  width: 25rem;
+  border-radius: 20px;
+}
+.back {
+  margin: 40px;
+  font-size: 18px;
+}
+.back a {
+  color: black;
+  text-decoration: none;
+}

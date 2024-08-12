@@ -1,0 +1,45 @@
+.outer_container {
+  margin-top: 80px;
+}
+.body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 70vh;
+  width: 40%;
+  background-color: rgb(196, 196, 196);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.create_acc {
+  margin-bottom: 50px;
+}
+.user_input {
+  padding: 10px 12px;
+  width: 20rem;
+  border: 1px solid gray;
+}
+.submit_btn {
+  padding: 10px 130px;
+  font-size: 18px;
+  border-radius: 30px;
+}
+.terms {
+  color: rgb(157, 11, 157);
+}
+.credentials {
+  color: red;
+}
+.back {
+  margin: 40px;
+  font-size: 18px;
+}
+.back a {
+  color: black;
+  text-decoration: none;
+}

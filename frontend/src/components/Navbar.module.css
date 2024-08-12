@@ -1,0 +1,47 @@
+.navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid rgb(54, 53, 53);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 0 50px; 
+  box-sizing: border-box;
+}
+
+.logo_container {
+  height: 77.8px;
+  display: flex;
+  align-items: center;
+}
+
+.school_logo {
+  height: 100%;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.login_ul {
+  min-width: 150px; /* Ensure dropdown has a minimum width */
+}
+
+.login_ul a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+
+  .login {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,93 @@
+.outer_container {
+  margin-top: 30px;
+}
+.marks_details_section {
+  width: 70%;
+  height: 550px;
+  background-color: rgb(196, 196, 196);
+  border-radius: 30px;
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.progress_report {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress_report p {
+  font-size: 30px;
+  background-color: green;
+  border-radius: 30px;
+  padding: 0 30px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.select_container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.select_container select {
+  width: 200px;
+}
+
+.enter_btn {
+  background-color: green;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px 30px;
+  border-radius: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.marks {
+  width: 100%;
+  text-align: center;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.heading {
+  font-weight: 500;
+}
+
+.marks ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.marks ul li {
+  list-style: none;
+  border: 1px solid black;
+  padding: 15px 0;
+  font-size: 18px;
+  flex: 1;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.inform {
+  text-align: center;
+  color: red;
+}
+.back {
+  margin: 40px;
+  font-size: 18px;
+}
+.back a {
+  color: black;
+  text-decoration: none;
+}

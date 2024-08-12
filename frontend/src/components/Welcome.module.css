@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 80px);
+  position: relative;
+  z-index: 1px;
+}
+.welcome {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 110px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: linear-gradient(to bottom, blue 50%, red 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  -o-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+}
