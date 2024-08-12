@@ -20,7 +20,7 @@ const StudentMarksDetails = ({ passRollno }) => {
   const collectData = async () => {
     if (selectedClass && selectedRollNo) {
       let result = await fetch(
-        `http://localhost:5000/report/${selectedClass}/${selectedRollNo}`,
+        `https://school-login-portal-backened-0zbt.onrender.com/report/${selectedClass}/${selectedRollNo}`,
         {
           headers: {
             authorization: `bearer ${JSON.parse(
