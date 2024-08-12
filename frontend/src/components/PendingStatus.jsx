@@ -16,7 +16,7 @@ const PendingStatus = () => {
     try {
       console.log(selectDate);
       let result = await fetch(
-        `http://localhost:5000/feeStatus/${selectDate}`,
+        `https://school-login-portal-backened-0zbt.onrender.com/feeStatus/${selectDate}`,
         {
           headers: {
             authorization: `bearer ${JSON.parse(
