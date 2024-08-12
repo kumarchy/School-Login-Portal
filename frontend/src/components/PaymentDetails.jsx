@@ -24,7 +24,7 @@ const PaymentDetails = ({ passRollno }) => {
     try {
       if (selectClass && selectRollno) {
         let result = await fetch(
-          `http://localhost:5000/pending/${selectClass}/${selectRollno}`,
+          `https://school-login-portal-backened-0zbt.onrender.com/pending/${selectClass}/${selectRollno}`,
           {
             headers: {
               authorization: `bearer ${JSON.parse(
