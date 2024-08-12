@@ -24,7 +24,7 @@ const Dashboard = () => {
 
   const getPaymentSectionRollno = async () => {
     setSelectDetail("Payment Details");
-    let result = await fetch("https://school-login-portal-backened-0zbt.onrender.com", {
+    let result = await fetch("https://school-login-portal-backened-0zbt.onrender.com/rollnumber", {
       headers: {
         authorization: `bearer ${JSON.parse(localStorage.getItem("token"))}`,
       },
@@ -37,7 +37,7 @@ const Dashboard = () => {
 
   const getMarksSectionRollno = async () => {
     setSelectDetail("Student Marks Details");
-    let result = await fetch("https://school-login-portal-backened-0zbt.onrender.com", {
+    let result = await fetch("https://school-login-portal-backened-0zbt.onrender.com/rollnumber", {
       headers: {
         authorization: `bearer ${JSON.parse(localStorage.getItem("token"))}`,
       },
