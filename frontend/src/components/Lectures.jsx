@@ -15,7 +15,7 @@ const Lectures = () => {
     try {
       if (selectClass && selectSubject) {
         let result = await fetch(
-          `http://localhost:5000/lecture/${selectClass}/${selectSubject}`,
+          `https://school-login-portal-backened-0zbt.onrender.com/${selectClass}/${selectSubject}`,
           {
             headers: {
               authorization: `bearer ${JSON.parse(
