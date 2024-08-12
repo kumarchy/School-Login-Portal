@@ -20,7 +20,7 @@ const Register = () => {
       password: userPassword,
     };
 
-    let result = await fetch(`http://localhost:5000/register`, {
+    let result = await fetch(`https://school-login-portal-backened-0zbt.onrender.com/register`, {
       method: "post",
       body: JSON.stringify(data),
       headers: {
