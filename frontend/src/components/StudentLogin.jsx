@@ -25,7 +25,7 @@ const StudentLogin = () => {
     }
 
     try {
-      let response = await fetch("http://localhost:5000/login", {
+      let response = await fetch("https://school-login-portal-backened-0zbt.onrender.com/login", {
         method: "POST",
         body: JSON.stringify({ email, password }),
         headers: {
