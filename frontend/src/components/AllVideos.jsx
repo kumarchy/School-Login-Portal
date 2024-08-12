@@ -14,7 +14,7 @@ const AllVideos = () => {
         if (selectClass && selectSubject) {
           console.log(selectClass, selectSubject);
           let result = await fetch(
-            `https://school-login-portal-backened-0zbt.onrender.com/${selectClass}/${selectSubject}`,
+            `https://school-login-portal-backened-0zbt.onrender.com/lecture/${selectClass}/${selectSubject}`,
             {
               headers: {
                 authorization: `bearer ${JSON.parse(
